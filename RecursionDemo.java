@@ -1,11 +1,8 @@
 
-import java.util.Scanner;
-
 public class RecursionDemo{
     public static void main(String[] args)    {
-         System.out.println("Enter an integer:");
-         Scanner keyboard = new Scanner(System.in);;
-         int number = keyboard.nextInt( );
+         
+         int number = 100;
          System.out.println("The digits in that number are:");
          displayAsWords(number);
          System.out.println( );
