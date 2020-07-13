@@ -1,9 +1,8 @@
 
 import java.util.Scanner;
 
-
-    public static void main(String[] args)
-    {
+public class RecursionDemo{
+    public static void main(String[] args)    {
          System.out.println("Enter an integer:");
          Scanner keyboard = new Scanner(System.in);;
          int number = keyboard.nextInt( );
@@ -31,7 +30,7 @@ import java.util.Scanner;
             displayAsWords(number / 10);
             System.out.print(getWordFromDigit(number % 10) + " ");
         }
-	}
+    }
 	
     /**
      Precondition: 0 <= digit <= 9
