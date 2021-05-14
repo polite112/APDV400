@@ -1,0 +1,15 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = Sithole P
+	email = polite123.ps@gmail.com
+	username = Polite112
+[core]
+	editor = nano
+[push]
+	default = simple
+[pus]
+	default = simple
